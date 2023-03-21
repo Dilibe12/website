@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&display=swap');
+
+:root {
+    --blue: #3498db;
+    --grey: 383838;
+}
+
+
+body{
+    background-color: #1f1f1f;
+    font-family:'Mulish',snans serif;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center,;
+    margin: 0;
+    overflow: hidden;
+    color: white;
+}
+
+.container {
+    text-align: center;
+}
+
+.progress-container{
+    display: flex:
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 30px
+    width: 350px;
+    max-width: 100%;
+}
+
+
+.progrss-contaibner:before{
+    content:'';
+    width: 100%;
+    height: 4px;
+    background-color: var(--color1);
+    position: absolute ;
+    top: 50%;
+    left: 0;
+    z-index: -1;
+    transform: translateY(-50%);
+}
+
+.progress {
+    background-color: var(--blue);
+    height: 4px;
+    width: 100%
+    position: absolute ;
+    top: 50%;
+    left: 0;
+    z-index: -1;
+    transform: translateY(-50%);
+}
