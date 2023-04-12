@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Golos+Text&display=swap');
 
+
+:root {
+    --blue: #3498db;
+    --grey: #383838;
+}
+
+
+
+
+
 body {
     background-color: #1f1f1f;
     color: white;
@@ -16,7 +26,7 @@ body {
     text-align: center;
 }
 
-.progress-container{
+.progress-container {
     display: flex:
     justify-content: space-between;
     position: relative;
