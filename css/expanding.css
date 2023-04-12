@@ -25,6 +25,7 @@ body {
     cursor: pointer;
     position: relative;
     color: white;
+    tansition: all 1s ease-in;
 
 }
 .panel.active {
