@@ -27,16 +27,17 @@ body {
 }
 
 .progress-container {
-    display: flex:
+    background-color: yellow;
+    display: flex;
     justify-content: space-between;
     position: relative;
-    margin-bottom: 30px
+    margin-bottom: 30px;
     width: 350px;
     max-width: 100%;
 }
 
 
-.progrss-contaibner:before{
+.progrss-container:before {
     content:'';
     width: 100%;
     height: 4px;
@@ -51,7 +52,7 @@ body {
 .progress {
     background-color: var(--blue);
     height: 4px;
-    width: 100%
+    width: 100%;
     position: absolute ;
     top: 50%;
     left: 0;
