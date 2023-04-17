@@ -11,8 +11,8 @@ body {
 }
 
 .bg{
-    background: url()
-    no-repeat cnter center/cover;
+    background: url('https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/5bbfb9b4-9f59-43e5-a4ab-e5238459b210/elite-championship-8p-basketball-hjNbR5.png')
+    no-repeat center center/cover;
     width: 100vw;
     height: 100vh;
     filter: blur(30px);
