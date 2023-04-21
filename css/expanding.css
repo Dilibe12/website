@@ -25,7 +25,7 @@ body {
     cursor: pointer;
     position: relative;
     color: #ffffff;
-    tansition: all 1s ease-in;
+    transition: all 1s ease-in;
 }
 
 .panel h3 {
